@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\dell\AppData\Local\Temp\testng-eclipse-1577186463\testng-customsuite.xml</span>
+                    <span>C:\Users\dell\eclipse-workspace\ExtentReportScreenshot\ExtentReportScreenshot\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods, 2 failed,   </span>
+                    <span class="method-stats">3 methods, 2 failed,   1 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -107,10 +107,24 @@
                       <br/>
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="com.crm.qa.testcases.FreeCrmTest" class="method navigator-link" hash-for-method="freeCrmTitleTest">freeCrmTitleTest</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="com.crm.qa.testcases.FreeCrmSignUpTest" class="method navigator-link" hash-for-method="signUpBtnTest">signUpBtnTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Default_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.crm.qa.testcases.FreeCrmTest" class="method navigator-link" hash-for-method="freeCrmTitleTest">freeCrmTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -170,18 +184,26 @@
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-failed -->
+          <div class="suite-Default_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.crm.qa.testcases.FreeCrmSignUpTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="freeCrmTitleTest">
-                  </a> <!-- freeCrmTitleTest -->
-                  <span class="method-name">freeCrmTitleTest</span>
-                  <div class="stack-trace">java.lang.AssertionError: The title not as expected expected [Cogmento CRMM] but found [Cogmento CRM]
+                  <a name="signUpBtnTest">
+                  </a> <!-- signUpBtnTest -->
+                  <span class="method-name">signUpBtnTest</span>
+                  <div class="stack-trace">java.lang.AssertionError: SignUp button not found expected [false] but found [true]
 	at org.testng.Assert.fail(Assert.java:93)
 	at org.testng.Assert.failNotEquals(Assert.java:512)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
 	at org.testng.Assert.assertEquals(Assert.java:115)
-	at org.testng.Assert.assertEquals(Assert.java:189)
-	at com.crm.qa.testcases.FreeCrmTest.freeCrmTitleTest(FreeCrmTest.java:42)
+	at org.testng.Assert.assertEquals(Assert.java:304)
+	at com.crm.qa.testcases.FreeCrmSignUpTest.signUpBtnTest(FreeCrmSignUpTest.java:41)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -213,19 +235,38 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Default_suite-class-failed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.crm.qa.testcases.FreeCrmTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="freeCrmTitleTest">
+                  </a> <!-- freeCrmTitleTest -->
+                  <span class="method-name">freeCrmTitleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\dell\AppData\Local\Temp\testng-eclipse-1577186463\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\dell\eclipse-workspace\ExtentReportScreenshot\ExtentReportScreenshot\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.crm.qa.util.ExtentReportListener&quot;/&gt;
+  &lt;/listeners&gt;
   &lt;test name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.crm.qa.testcases.FreeCrmTest&quot;/&gt;
+      &lt;class name=&quot;com.crm.qa.testcases.FreeCrmSignUpTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -239,7 +280,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Default test (1 class)</span>
+                <span class="test-name">Default test (2 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -265,20 +306,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'freeCrmSignUpTest')
-data.setCell(0, 2, 'com.crm.qa.testcases.FreeCrmTest')
-data.setCell(0, 3, 222);
+data.setCell(0, 1, 'signUpBtnTest')
+data.setCell(0, 2, 'com.crm.qa.testcases.FreeCrmSignUpTest')
+data.setCell(0, 3, 581);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'freeCrmTitleTest')
+data.setCell(1, 1, 'freeCrmSignUpTest')
 data.setCell(1, 2, 'com.crm.qa.testcases.FreeCrmTest')
-data.setCell(1, 3, 115);
+data.setCell(1, 3, 63);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'freeCrmTitleTest')
+data.setCell(2, 2, 'com.crm.qa.testcases.FreeCrmTest')
+data.setCell(2, 3, 10);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 337 ms</span>
+              <span class="suite-total-time">Total running time: 654 ms</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -304,7 +349,7 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.crm.qa.testcases.FreeCrmTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.crm.qa.testcases.FreeCrmSignUpTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
                 <span class="method-start">0 ms</span>
@@ -312,26 +357,41 @@ return data;
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">freeCrmTitleTest</span>
-                <span class="method-start">14295 ms</span>
+                <span class="method-name">signUpBtnTest</span>
+                <span class="method-start">19784 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">tearDown([TestResult name=freeCrmTitleTest status=FAILURE method=FreeCrmTest.freeCrmTitleTest()[pri:1, instan...)</span>
-                <span class="method-start">14497 ms</span>
+                <span class="method-name">tearDown([TestResult name=signUpBtnTest status=FAILURE method=FreeCrmSignUpTest.signUpBtnTest()[pri:0, instan...)</span>
+                <span class="method-start">20431 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.crm.qa.testcases.FreeCrmTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">22490 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">freeCrmTitleTest</span>
+                <span class="method-start">34781 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=freeCrmTitleTest status=SUCCESS method=FreeCrmTest.freeCrmTitleTest()[pri:1, instan...)</span>
+                <span class="method-start">34793 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">16257 ms</span>
+                <span class="method-start">35738 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">freeCrmSignUpTest</span>
-                <span class="method-start">28905 ms</span>
+                <span class="method-start">49791 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=freeCrmSignUpTest status=FAILURE method=FreeCrmTest.freeCrmSignUpTest()[pri:2, inst...)</span>
-                <span class="method-start">29131 ms</span>
+                <span class="method-start">49857 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

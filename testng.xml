@@ -9,6 +9,7 @@
   
     <classes>
       <class name="com.crm.qa.testcases.FreeCrmTest"/>
+      <class name="com.crm.qa.testcases.FreeCrmSignUpTest"/>
     </classes>
   </test> <!-- Default test -->
 </suite> <!-- Default suite -->

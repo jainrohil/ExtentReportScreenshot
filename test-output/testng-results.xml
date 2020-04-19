@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="0" failed="2" skipped="0">
+<testng-results ignored="0" total="3" passed="1" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-04-19T18:55:50Z" name="Default suite" finished-at="2020-04-19T18:56:21Z" duration-ms="31236">
+  <suite started-at="2020-04-19T20:18:42Z" name="Default suite" finished-at="2020-04-19T20:19:33Z" duration-ms="50997">
     <groups>
     </groups>
-    <test started-at="2020-04-19T18:55:50Z" name="Default test" finished-at="2020-04-19T18:56:21Z" duration-ms="31236">
-      <class name="com.crm.qa.testcases.FreeCrmTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.FreeCrmTest@47d9a273]" started-at="2020-04-19T14:55:50Z" name="setUp" finished-at="2020-04-19T14:56:04Z" duration-ms="14295" status="PASS">
+    <test started-at="2020-04-19T20:18:42Z" name="Default test" finished-at="2020-04-19T20:19:33Z" duration-ms="50997">
+      <class name="com.crm.qa.testcases.FreeCrmSignUpTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.FreeCrmSignUpTest@71c8becc]" started-at="2020-04-19T16:18:42Z" name="setUp" finished-at="2020-04-19T16:19:02Z" duration-ms="19784" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="freeCrmTitleTest()[pri:1, instance:com.crm.qa.testcases.FreeCrmTest@47d9a273]" started-at="2020-04-19T14:56:04Z" name="freeCrmTitleTest" finished-at="2020-04-19T14:56:04Z" duration-ms="115" status="FAIL">
+        <test-method signature="signUpBtnTest()[pri:0, instance:com.crm.qa.testcases.FreeCrmSignUpTest@71c8becc]" started-at="2020-04-19T16:19:02Z" name="signUpBtnTest" finished-at="2020-04-19T16:19:03Z" duration-ms="581" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[The title not as expected expected [Cogmento CRMM] but found [Cogmento CRM]]]>
+              <![CDATA[SignUp button not found expected [false] but found [true]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: The title not as expected expected [Cogmento CRMM] but found [Cogmento CRM]
+              <![CDATA[java.lang.AssertionError: SignUp button not found expected [false] but found [true]
 	at org.testng.Assert.fail(Assert.java:93)
 	at org.testng.Assert.failNotEquals(Assert.java:512)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
 	at org.testng.Assert.assertEquals(Assert.java:115)
-	at org.testng.Assert.assertEquals(Assert.java:189)
-	at com.crm.qa.testcases.FreeCrmTest.freeCrmTitleTest(FreeCrmTest.java:42)
+	at org.testng.Assert.assertEquals(Assert.java:304)
+	at com.crm.qa.testcases.FreeCrmSignUpTest.signUpBtnTest(FreeCrmSignUpTest.java:41)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -54,23 +54,44 @@
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- freeCrmTitleTest -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.crm.qa.testcases.FreeCrmTest@47d9a273]" started-at="2020-04-19T14:56:04Z" name="tearDown" finished-at="2020-04-19T14:56:06Z" duration-ms="1758" status="PASS">
+        </test-method> <!-- signUpBtnTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.crm.qa.testcases.FreeCrmSignUpTest@71c8becc]" started-at="2020-04-19T16:19:03Z" name="tearDown" finished-at="2020-04-19T16:19:05Z" duration-ms="2057" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=freeCrmTitleTest status=FAILURE method=FreeCrmTest.freeCrmTitleTest()[pri:1, instance:com.crm.qa.testcases.FreeCrmTest@47d9a273] output={null}]]]>
+                <![CDATA[[TestResult name=signUpBtnTest status=FAILURE method=FreeCrmSignUpTest.signUpBtnTest()[pri:0, instance:com.crm.qa.testcases.FreeCrmSignUpTest@71c8becc] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.FreeCrmTest@47d9a273]" started-at="2020-04-19T14:56:06Z" name="setUp" finished-at="2020-04-19T14:56:19Z" duration-ms="12648" status="PASS">
+      </class> <!-- com.crm.qa.testcases.FreeCrmSignUpTest -->
+      <class name="com.crm.qa.testcases.FreeCrmTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.FreeCrmTest@5e4c8041]" started-at="2020-04-19T16:19:05Z" name="setUp" finished-at="2020-04-19T16:19:17Z" duration-ms="12291" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="freeCrmSignUpTest()[pri:2, instance:com.crm.qa.testcases.FreeCrmTest@47d9a273]" started-at="2020-04-19T14:56:19Z" name="freeCrmSignUpTest" finished-at="2020-04-19T14:56:19Z" duration-ms="222" status="FAIL">
+        <test-method signature="freeCrmTitleTest()[pri:1, instance:com.crm.qa.testcases.FreeCrmTest@5e4c8041]" started-at="2020-04-19T16:19:17Z" name="freeCrmTitleTest" finished-at="2020-04-19T16:19:17Z" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- freeCrmTitleTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.crm.qa.testcases.FreeCrmTest@5e4c8041]" started-at="2020-04-19T16:19:17Z" name="tearDown" finished-at="2020-04-19T16:19:18Z" duration-ms="945" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=freeCrmTitleTest status=SUCCESS method=FreeCrmTest.freeCrmTitleTest()[pri:1, instance:com.crm.qa.testcases.FreeCrmTest@5e4c8041] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.FreeCrmTest@5e4c8041]" started-at="2020-04-19T16:19:18Z" name="setUp" finished-at="2020-04-19T16:19:32Z" duration-ms="14053" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="freeCrmSignUpTest()[pri:2, instance:com.crm.qa.testcases.FreeCrmTest@5e4c8041]" started-at="2020-04-19T16:19:32Z" name="freeCrmSignUpTest" finished-at="2020-04-19T16:19:32Z" duration-ms="63" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [false] but found [true]]]>
@@ -115,11 +136,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- freeCrmSignUpTest -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.crm.qa.testcases.FreeCrmTest@47d9a273]" started-at="2020-04-19T14:56:19Z" name="tearDown" finished-at="2020-04-19T14:56:21Z" duration-ms="2074" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.crm.qa.testcases.FreeCrmTest@5e4c8041]" started-at="2020-04-19T16:19:32Z" name="tearDown" finished-at="2020-04-19T16:19:33Z" duration-ms="1108" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=freeCrmSignUpTest status=FAILURE method=FreeCrmTest.freeCrmSignUpTest()[pri:2, instance:com.crm.qa.testcases.FreeCrmTest@47d9a273] output={null}]]]>
+                <![CDATA[[TestResult name=freeCrmSignUpTest status=FAILURE method=FreeCrmTest.freeCrmSignUpTest()[pri:2, instance:com.crm.qa.testcases.FreeCrmTest@5e4c8041] output={null}]]]>
               </value>
             </param>
           </params>

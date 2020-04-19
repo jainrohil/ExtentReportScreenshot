@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/2/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>1/2/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sun Apr 19 14:55:50 EDT 2020</td>
+<td>Started on:</td><td>Sun Apr 19 16:18:42 EDT 2020</td>
 </tr>
-<tr><td>Total time:</td><td>31 seconds (31236 ms)</td>
+<tr><td>Total time:</td><td>50 seconds (50997 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -109,8 +109,8 @@ function toggleAllBoxes() {
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace567656864", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace567656864'><pre>java.lang.AssertionError: expected [false] but found [true]
+</pre></div><a href='#' onClick='toggleBox("stack-trace836969741", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace836969741'><pre>java.lang.AssertionError: expected [false] but found [true]
 	at org.testng.Assert.fail(Assert.java:93)
 	at org.testng.Assert.failNotEquals(Assert.java:512)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
@@ -145,16 +145,16 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>0</td>
-<td>com.crm.qa.testcases.FreeCrmTest@47d9a273</td></tr>
+<td>com.crm.qa.testcases.FreeCrmTest@5e4c8041</td></tr>
 <tr>
-<td title='com.crm.qa.testcases.FreeCrmTest.freeCrmTitleTest()'><b>freeCrmTitleTest</b><br>Test class: com.crm.qa.testcases.FreeCrmTest</td>
-<td><div><pre>java.lang.AssertionError: The title not as expected expected [Cogmento CRMM] but found [Cogmento CRM]
+<td title='com.crm.qa.testcases.FreeCrmSignUpTest.signUpBtnTest()'><b>signUpBtnTest</b><br>Test class: com.crm.qa.testcases.FreeCrmSignUpTest</td>
+<td><div><pre>java.lang.AssertionError: SignUp button not found expected [false] but found [true]
 	at org.testng.Assert.fail(Assert.java:93)
 	at org.testng.Assert.failNotEquals(Assert.java:512)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
 	at org.testng.Assert.assertEquals(Assert.java:115)
-	at org.testng.Assert.assertEquals(Assert.java:189)
-	at com.crm.qa.testcases.FreeCrmTest.freeCrmTitleTest(FreeCrmTest.java:42)
+	at org.testng.Assert.assertEquals(Assert.java:304)
+	at com.crm.qa.testcases.FreeCrmSignUpTest.signUpBtnTest(FreeCrmSignUpTest.java:41)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -180,14 +180,14 @@ function toggleAllBoxes() {
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace2144067911", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace2144067911'><pre>java.lang.AssertionError: The title not as expected expected [Cogmento CRMM] but found [Cogmento CRM]
+</pre></div><a href='#' onClick='toggleBox("stack-trace207546206", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace207546206'><pre>java.lang.AssertionError: SignUp button not found expected [false] but found [true]
 	at org.testng.Assert.fail(Assert.java:93)
 	at org.testng.Assert.failNotEquals(Assert.java:512)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
 	at org.testng.Assert.assertEquals(Assert.java:115)
-	at org.testng.Assert.assertEquals(Assert.java:189)
-	at com.crm.qa.testcases.FreeCrmTest.freeCrmTitleTest(FreeCrmTest.java:42)
+	at org.testng.Assert.assertEquals(Assert.java:304)
+	at com.crm.qa.testcases.FreeCrmSignUpTest.signUpBtnTest(FreeCrmSignUpTest.java:41)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -215,7 +215,20 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>0</td>
-<td>com.crm.qa.testcases.FreeCrmTest@47d9a273</td></tr>
+<td>com.crm.qa.testcases.FreeCrmSignUpTest@71c8becc</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.crm.qa.testcases.FreeCrmTest.freeCrmTitleTest()'><b>freeCrmTitleTest</b><br>Test class: com.crm.qa.testcases.FreeCrmTest</td>
+<td></td>
+<td>0</td>
+<td>com.crm.qa.testcases.FreeCrmTest@5e4c8041</td></tr>
 </table><p>
 </body>
 </html>

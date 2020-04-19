@@ -61,6 +61,8 @@ public class ExtentReportListener implements IReporter {
 
 				if (result.getThrowable() != null) {
 					test.log(status, result.getThrowable());
+					//Check if the test case failed or was skipped and then attach the appropriate screenshot
+					//using getAttribute() to the test case resut in Extent Report
 					if(result.getStatus()==result.FAILURE || result.getStatus()==result.SKIP) {
 						String screenshotPath=(String) result.getAttribute("screenshotPath");
 						test.log(status, test.addScreenCapture(screenshotPath));

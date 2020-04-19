@@ -54,7 +54,7 @@
 					<i class='mdi-hardware-desktop-windows'></i>
 				</li>
 				<li>
-					<span class='suite-started-time'>2020-04-17 16:10:15</span>
+					<span class='suite-started-time'>2020-04-19 16:19:35</span>
 				</li>
 				<li>
 					<span>v2.41.1</span>
@@ -84,25 +84,25 @@
 					<div class='col l2 m4 s12'>
 						<div class='card suite-total-time-current'> 
 							<span class='panel-name'>Total Time Taken (Current Run)</span> 
-							<span class='suite-total-time-current-value panel-lead'>0h 0m 16s+198ms</span> 
+							<span class='suite-total-time-current-value panel-lead'>0h 0m 32s+612ms</span> 
 						</div> 
 					</div>
 					<div class='col l2 m4 s12'>
 						<div class='card suite-total-time-overall'> 
 							<span class='panel-name'>Total Time Taken (Overall)</span> 
-							<span class='suite-total-time-overall-value panel-lead'>0h 0m 16s+198ms</span> 
+							<span class='suite-total-time-overall-value panel-lead'>0h 0m 32s+612ms</span> 
 						</div> 
 					</div>
 					<div class='col l2 m4 s6 suite-start-time'>
 						<div class='card accent green-accent'> 
 							<span class='panel-name'>Start</span> 
-							<span class='panel-lead suite-started-time'>2020-04-17 16:09:59</span> 
+							<span class='panel-lead suite-started-time'>2020-04-19 16:19:02</span> 
 						</div> 
 					</div>
 					<div class='col l2 m4 s6 suite-end-time'>
 						<div class='card accent pink-accent'> 
 							<span class='panel-name'>End</span> 
-							<span class='panel-lead suite-ended-time'>2020-04-17 16:10:15</span> 
+							<span class='panel-lead suite-ended-time'>2020-04-19 16:19:35</span> 
 						</div> 
 					</div>
 				</div>
@@ -238,17 +238,17 @@
 						<div class='card-panel no-padding-h no-padding-v no-margin-v'>
 							<div class='wrapper'>
 								<ul id='test-collection' class='test-collection'>
-										<li class='collection-item test displayed active fail ' extentid='bad4c2f4-1f9a-460e-9884-b0f009bb8949'>
+										<li class='collection-item test displayed active pass ' extentid='31ae0a4e-4d21-48df-ba71-1ed314c9c585'>
 											<div class='test-head'>
 												<span class='test-name'>freeCrmTitleTest </span>
-												<span class='test-status label right outline capitalize fail'>fail</span>
+												<span class='test-status label right outline capitalize pass'>pass</span>
 												<span class='category-assigned hide '></span>
 											</div>
 											<div class='test-body'>
 												<div class='test-info'>
-													<span title='Test started time' alt='Test started time' class='test-started-time label green lighten-1 text-white'>2020-04-17 16:09:59</span>
-													<span title='Test ended time' alt='Test ended time' class='test-ended-time label red lighten-1 text-white'>2020-04-17 16:09:59</span>
-													<span title='Time taken to finish' alt='Time taken to finish' class='test-time-taken label blue-grey lighten-3 text-white'>0h 0m 0s+21ms</span>
+													<span title='Test started time' alt='Test started time' class='test-started-time label green lighten-1 text-white'>2020-04-19 16:19:17</span>
+													<span title='Test ended time' alt='Test ended time' class='test-ended-time label red lighten-1 text-white'>2020-04-19 16:19:17</span>
+													<span title='Time taken to finish' alt='Time taken to finish' class='test-time-taken label blue-grey lighten-3 text-white'>0h 0m 0s+10ms</span>
 												</div>
 												<div class='test-desc'></div>
 												<div class='test-attributes'>
@@ -264,46 +264,9 @@
 														</thead>
 														<tbody>
 																<tr>
-																	<td class='status fail' title='fail' alt='fail'><i class='mdi-navigation-cancel'></i></td>
-																	<td class='timestamp'>16:09:59</td>
-																	<td class='step-details'><pre>java.lang.AssertionError: The title not as expected expected [Cogmento CRMM] but found [Cogmento CRM]
-	at org.testng.Assert.fail(Assert.java:93)
-	at org.testng.Assert.failNotEquals(Assert.java:512)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
-	at org.testng.Assert.assertEquals(Assert.java:115)
-	at org.testng.Assert.assertEquals(Assert.java:189)
-	at FreeCrmTest.freeCrmTitleTest(FreeCrmTest.java:94)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></td>
-																</tr>
-																<tr>
-																	<td class='status fail' title='fail' alt='fail'><i class='mdi-navigation-cancel'></i></td>
-																	<td class='timestamp'>16:09:59</td>
-																	<td class='step-details'><a href='C:\Users\dell\eclipse-workspace\ExtentReportScreenshot\ExtentReportScreenshot/FailedTestsScreenshots/freeCrmTitleTest20200417040959.png' data-featherlight='image'><img class='report-img' src='file:///C:\Users\dell\eclipse-workspace\ExtentReportScreenshot\ExtentReportScreenshot/FailedTestsScreenshots/freeCrmTitleTest20200417040959.png' /></a></td>
+																	<td class='status pass' title='pass' alt='pass'><i class='mdi-action-check-circle'></i></td>
+																	<td class='timestamp'>16:19:17</td>
+																	<td class='step-details'>Test passed</td>
 																</tr>
 														</tbody>
 													</table>
@@ -312,17 +275,17 @@
 												</div>
 											</div>
 										</li>
-										<li class='collection-item test displayed active fail ' extentid='81154601-b8ce-45e5-93c3-c1c75ba7269b'>
+										<li class='collection-item test displayed active fail ' extentid='4b4b1cb5-504f-472b-874c-4ac473162733'>
 											<div class='test-head'>
-												<span class='test-name'>freeCrmSignUpTest </span>
+												<span class='test-name'>signUpBtnTest </span>
 												<span class='test-status label right outline capitalize fail'>fail</span>
 												<span class='category-assigned hide '></span>
 											</div>
 											<div class='test-body'>
 												<div class='test-info'>
-													<span title='Test started time' alt='Test started time' class='test-started-time label green lighten-1 text-white'>2020-04-17 16:10:12</span>
-													<span title='Test ended time' alt='Test ended time' class='test-ended-time label red lighten-1 text-white'>2020-04-17 16:10:12</span>
-													<span title='Time taken to finish' alt='Time taken to finish' class='test-time-taken label blue-grey lighten-3 text-white'>0h 0m 0s+128ms</span>
+													<span title='Test started time' alt='Test started time' class='test-started-time label green lighten-1 text-white'>2020-04-19 16:19:02</span>
+													<span title='Test ended time' alt='Test ended time' class='test-ended-time label red lighten-1 text-white'>2020-04-19 16:19:03</span>
+													<span title='Time taken to finish' alt='Time taken to finish' class='test-time-taken label blue-grey lighten-3 text-white'>0h 0m 0s+581ms</span>
 												</div>
 												<div class='test-desc'></div>
 												<div class='test-attributes'>
@@ -339,15 +302,14 @@
 														<tbody>
 																<tr>
 																	<td class='status fail' title='fail' alt='fail'><i class='mdi-navigation-cancel'></i></td>
-																	<td class='timestamp'>16:10:12</td>
-																	<td class='step-details'><pre>java.lang.AssertionError: expected [false] but found [true]
+																	<td class='timestamp'>16:19:03</td>
+																	<td class='step-details'><pre>java.lang.AssertionError: SignUp button not found expected [false] but found [true]
 	at org.testng.Assert.fail(Assert.java:93)
 	at org.testng.Assert.failNotEquals(Assert.java:512)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
 	at org.testng.Assert.assertEquals(Assert.java:115)
 	at org.testng.Assert.assertEquals(Assert.java:304)
-	at org.testng.Assert.assertEquals(Assert.java:314)
-	at FreeCrmTest.freeCrmSignUpTest(FreeCrmTest.java:104)
+	at com.crm.qa.testcases.FreeCrmSignUpTest.signUpBtnTest(FreeCrmSignUpTest.java:41)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -377,8 +339,83 @@
 																</tr>
 																<tr>
 																	<td class='status fail' title='fail' alt='fail'><i class='mdi-navigation-cancel'></i></td>
-																	<td class='timestamp'>16:10:12</td>
-																	<td class='step-details'><a href='C:\Users\dell\eclipse-workspace\ExtentReportScreenshot\ExtentReportScreenshot/FailedTestsScreenshots/freeCrmSignUpTest20200417041012.png' data-featherlight='image'><img class='report-img' src='file:///C:\Users\dell\eclipse-workspace\ExtentReportScreenshot\ExtentReportScreenshot/FailedTestsScreenshots/freeCrmSignUpTest20200417041012.png' /></a></td>
+																	<td class='timestamp'>16:19:03</td>
+																	<td class='step-details'><a href='C:\Users\dell\eclipse-workspace\ExtentReportScreenshot\ExtentReportScreenshot/FailedTestsScreenshots/signUpBtnTest20200419041903.png' data-featherlight='image'><img class='report-img' src='file:///C:\Users\dell\eclipse-workspace\ExtentReportScreenshot\ExtentReportScreenshot/FailedTestsScreenshots/signUpBtnTest20200419041903.png' /></a></td>
+																</tr>
+														</tbody>
+													</table>
+													<ul class='collapsible node-list' data-collapsible='accordion'>
+													</ul>
+												</div>
+											</div>
+										</li>
+										<li class='collection-item test displayed active fail ' extentid='a5b4555d-7239-45d1-a20d-29dfef3582e7'>
+											<div class='test-head'>
+												<span class='test-name'>freeCrmSignUpTest </span>
+												<span class='test-status label right outline capitalize fail'>fail</span>
+												<span class='category-assigned hide '></span>
+											</div>
+											<div class='test-body'>
+												<div class='test-info'>
+													<span title='Test started time' alt='Test started time' class='test-started-time label green lighten-1 text-white'>2020-04-19 16:19:32</span>
+													<span title='Test ended time' alt='Test ended time' class='test-ended-time label red lighten-1 text-white'>2020-04-19 16:19:32</span>
+													<span title='Time taken to finish' alt='Time taken to finish' class='test-time-taken label blue-grey lighten-3 text-white'>0h 0m 0s+63ms</span>
+												</div>
+												<div class='test-desc'></div>
+												<div class='test-attributes'>
+												</div>
+												<div class='test-steps'>
+													<table class='bordered table-results'>
+														<thead>
+															<tr>
+																<th>Status</th>
+																<th>Timestamp</th>
+																<th>Details</th>
+															</tr>
+														</thead>
+														<tbody>
+																<tr>
+																	<td class='status fail' title='fail' alt='fail'><i class='mdi-navigation-cancel'></i></td>
+																	<td class='timestamp'>16:19:32</td>
+																	<td class='step-details'><pre>java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:304)
+	at org.testng.Assert.assertEquals(Assert.java:314)
+	at com.crm.qa.testcases.FreeCrmTest.freeCrmSignUpTest(FreeCrmTest.java:48)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></td>
+																</tr>
+																<tr>
+																	<td class='status fail' title='fail' alt='fail'><i class='mdi-navigation-cancel'></i></td>
+																	<td class='timestamp'>16:19:32</td>
+																	<td class='step-details'><a href='C:\Users\dell\eclipse-workspace\ExtentReportScreenshot\ExtentReportScreenshot/FailedTestsScreenshots/freeCrmSignUpTest20200419041932.png' data-featherlight='image'><img class='report-img' src='file:///C:\Users\dell\eclipse-workspace\ExtentReportScreenshot\ExtentReportScreenshot/FailedTestsScreenshots/freeCrmSignUpTest20200419041932.png' /></a></td>
 																</tr>
 														</tbody>
 													</table>
@@ -456,15 +493,15 @@
 															</thead>
 															<tbody>
                                                                    <tr class='fail'>
-                                                                       <td>2020-04-17 16:09:59</td>
-                                                                       <td><span class='exception-link linked' extentid='bad4c2f4-1f9a-460e-9884-b0f009bb8949'>freeCrmTitleTest</span></td>
-                                                                       <td><pre class='exception-message'>java.lang.AssertionError: The title not as expected expected [Cogmento CRMM] but found [Cogmento CRM]
+                                                                       <td>2020-04-19 16:19:02</td>
+                                                                       <td><span class='exception-link linked' extentid='4b4b1cb5-504f-472b-874c-4ac473162733'>signUpBtnTest</span></td>
+                                                                       <td><pre class='exception-message'>java.lang.AssertionError: SignUp button not found expected [false] but found [true]
 	at org.testng.Assert.fail(Assert.java:93)
 	at org.testng.Assert.failNotEquals(Assert.java:512)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
 	at org.testng.Assert.assertEquals(Assert.java:115)
-	at org.testng.Assert.assertEquals(Assert.java:189)
-	at FreeCrmTest.freeCrmTitleTest(FreeCrmTest.java:94)
+	at org.testng.Assert.assertEquals(Assert.java:304)
+	at com.crm.qa.testcases.FreeCrmSignUpTest.signUpBtnTest(FreeCrmSignUpTest.java:41)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -493,8 +530,8 @@
 </pre></td>
                                                                    </tr>
                                                                    <tr class='fail'>
-                                                                       <td>2020-04-17 16:10:12</td>
-                                                                       <td><span class='exception-link linked' extentid='81154601-b8ce-45e5-93c3-c1c75ba7269b'>freeCrmSignUpTest</span></td>
+                                                                       <td>2020-04-19 16:19:32</td>
+                                                                       <td><span class='exception-link linked' extentid='a5b4555d-7239-45d1-a20d-29dfef3582e7'>freeCrmSignUpTest</span></td>
                                                                        <td><pre class='exception-message'>java.lang.AssertionError: expected [false] but found [true]
 	at org.testng.Assert.fail(Assert.java:93)
 	at org.testng.Assert.failNotEquals(Assert.java:512)
@@ -502,7 +539,7 @@
 	at org.testng.Assert.assertEquals(Assert.java:115)
 	at org.testng.Assert.assertEquals(Assert.java:304)
 	at org.testng.Assert.assertEquals(Assert.java:314)
-	at FreeCrmTest.freeCrmSignUpTest(FreeCrmTest.java:104)
+	at com.crm.qa.testcases.FreeCrmTest.freeCrmSignUpTest(FreeCrmTest.java:48)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
