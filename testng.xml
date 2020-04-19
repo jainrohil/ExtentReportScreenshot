@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Default suite" guice-stage="DEVELOPMENT">
+<listeners>
+		<listener class-name="com.crm.qa.util.ExtentReportListener" />
+	</listeners>
+  <test name="Default test" verbose="2">
+  
+  
+    <classes>
+      <class name="com.crm.qa.testcases.FreeCrmTest"/>
+    </classes>
+  </test> <!-- Default test -->
+</suite> <!-- Default suite -->
+            
